@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css"  type="text/css"/>
+<style type="text/css">
+#wrapper #footer ul li a {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+li {
+    display:INLINE;
+}
+li a {
+    background-color:BLACK;
+    color:#B0B0B0;
+    padding: 10px 60px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+li a:hover:not(.active) {
+    background-color:lightgrey ;
+color:midnightblue;
+}
+li a.active {
+    background-color: #B0B0B0;
+    color: white;
+}
+	.thumbnails img {
+		height: 80px;
+		border: 4px solid #FFFFFF;
+		padding: 1px;
+		margin: 0 10px 10px 0;
+	}
+
+	.thumbnails img:hover {
+		border: 4px solid #00ccff;
+		cursor:pointer;
+	}
+
+	.preview img {
+		border: 4px solid #ffffff;
+		padding: 1px;
+		width: 800px;
+	}
+
+
+</style>
+<meta charset="utf-8">
+<title>Gallery</title>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+<img src="image/samsung4.png" width="80" height="28" />
+<h1>Rethink What a Phone Can Do</h1>
+</div>
+<ul style="font-size:20px";>
+  <li><a  href="home.html">HOME</a></li>
+  <li><a  class ="active" href="gallary.html">GALLARY</a></li>
+ <li><a href="conactus.html">CONTACT Us</a></li>
+  <li><a href="aboutus.html">ABOUT US</a></li>
+</ul> 
+
+<div id="content">
+<div class="gallery" align="center">
+<h1 style="color:#FFFFFF">It's More Than Just a 	Phone</h1>
+</div>
+<div class="thumbnails" align="center">
+	<img onmouseover="preview.src=img1.src" name="img1" src="image/img1.png" alt="" />
+	<img onmouseover="preview.src=img2.src" name="img2" src="image/img2.png" alt="" />
+	<img onmouseover="preview.src=img3.src" name="img3" src="image/img3.png" alt="" />
+	<img onmouseover="preview.src=img4.src" name="img4" src="image/img4.png" alt="" />
+	<img onmouseover="preview.src=img5.src" name="img5" src="image/img5.png" alt="" />
+    <img onmouseover="preview.src=img6.src" name="img6" src="image/img6.png" alt="" />
+    <img onmouseover="preview.src=img7.src" name="img7" src="image/img7.png" alt="" />
+    
+</div>
+<div class="preview" align="center">
+	<img name="preview" src="image/img1.png" alt=""/>
+</div>
+
+</div>
+</div>
+<div id="footer">
+<h4 style="color:#FFFFFF;font-size:18px";> FOLLOW US:</h4>
+<a href="https://twitter.com/SAMSUNG"><img src="image/twitter.png" alt="twitter" style="width:50PX;hight:50px"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.facebook.com/SAMSUNG"><img src="image/facebook.png" alt="facebook" style="width:50PX;hight:50px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.instagram.com/SAMSUNG"><img src="image/instagram.png" alt="instagram" style="width:50PX;hight:50px"/> </a>
+</div>
+</body>
+</html>

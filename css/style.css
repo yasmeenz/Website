@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{ background-image:url url(../image/stones.jpg)}
+
+#wrapper{ width:90%;
+min-width:500px;
+margin:auto;
+background:#000000;}
+
+
+#header{background:#000000;
+text-align:center;}
+
+#header h1{text-decoration:none;
+ color:white;
+display:inline;
+}
+
+#navbar a{border-left: 1px  groove  #0E0D0D;
+background:#EDE7E7; }
+#navbar a:link{ color:#ff0000;}
+#navbar a:hover{ background-color:#ff0;
+text-decoration:none;}
+
+#header img{float:left; 
+width:200px;
+height:70px;}
+
+#navbar{clear:left;
+background-color:#868686;}
+
+#content{background:url(../image/stones.jpg);}
+#content2{background:url(../image/main.jpg);}
+#footer{background-color:#787171;
+color:#E0DADA;}
+
+#footer ul{
+	list-style-type:none;}
+	#footer li{
+	background-color:#787171;
+	width:100px;
+	height:50px;
+	
+	
+	 quotes: 1px;}
+#footer a{text-decoration:none;
+color:#000000;}
+#footer a:hover {background-color:#434592;}
+
+#splashlogo {background-color:#003CFF ; padding:5px 20px; color:#000000;
+position:absolute; text-align:center ; z-index:4; top:210px; left:80px; border:2px solid #000000;}
+#logo { min-height:500px;}
+
+#s7 {position:absolute; z-index:3; left:170px; top:10;}
+#n5 {position:absolute; z-index:2; left:510px; top:100;}
+#g2 {position:absolute; z-index:3; left:250px; top:4;}
+#w {position:absolute; z-index:1; left:700px; top:8;}
+
+

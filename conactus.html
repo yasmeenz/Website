@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+<link rel="stylesheet" href="css/style.css"  type="text/css"/>
+<style type="text/css">
+#wrapper #footer ul li a {
+	font-family: Cambria, Hoefler Text, Liberation Serif, Times, Times New Roman, serif;
+}
+li {
+    display:INLINE;
+}
+li a {
+    background-color:BLACK;
+    color:#B0B0B0;
+    padding: 10px 60px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+}
+li a:hover:not(.active) {
+    background-color:lightgrey ;
+color:midnightblue;
+}
+li a.active {
+    background-color: #B0B0B0;
+    color: white;
+}
+
+
+
+</style>
+<meta charset="utf-8">
+<title>Gallery</title>
+</head>
+
+<body>
+<div id="wrapper">
+<div id="header">
+<img src="image/samsung4.png" width="80" height="28" />
+<h1>Rethink What a Phone Can Do</h1>
+</div>
+<ul style="font-size:20px";>
+  <li><a  href="home.html">HOME</a></li>
+  <li><a   href="gallary.html">GALLARY</a></li>
+ <li><a class ="active" href="conactus.html">CONTACT Us</a></li>
+  <li><a  href="aboutus.html">ABOUT US</a></li>
+</ul> 
+
+<div id="content">
+<div class="gallery" align="center">
+<h1 style="color:#FFFFFF">Find Us :D</h1>
+<h2>tel number :01018200522 </h2>	
+<div id="googleMap"  style="width:500px;height:380px;"></div>
+</div>
+</div>
+</div>
+<div id="footer">
+<h4 style="color:#FFFFFF;font-size:18px";> FOLLOW US:</h4>
+<a href="https://twitter.com/SAMSUNG"><img src="image/twitter.png" alt="twitter" style="width:50PX;hight:50px"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.facebook.com/SAMSUNG"><img src="image/facebook.png" alt="facebook" style="width:50PX;hight:50px" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.instagram.com/SAMSUNG"><img src="image/instagram.png" alt="instagram" style="width:50PX;hight:50px"/> </a>
+</div>
+</body>
+</html>
